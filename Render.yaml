@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: sardhan-chat
+    env: node
+    plan: free
+    envVars:
+      - key: MONGO_URL
+        value: mongodb+srv://username:password@cluster.mongodb.net/sardhan
